@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@import "node_modules/bootstrap/scss/bootstrap-utilities";
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.flex100between {
+  @extend .d-flex, .w-100, .justify-content-between;
+}
+.flex100center {
+  @extend .d-flex, .w-100, .justify-content-center;
+}
+.flex100around {
+  @extend .d-flex, .w-100, .justify-content-around;
+}
